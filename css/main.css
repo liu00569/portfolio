@@ -56,11 +56,16 @@ body{
 h1{
     font-size: 24px;
     font-weight: bold;
+    color: #ffeed6;
 }
 
 h4{
     font-weight: bold;
     color: #334f33;
+}
+
+p{
+    color: #ffeed6;
 }
 
 /* index page */
@@ -75,6 +80,7 @@ h4{
     margin-left: 10%;
     padding-top: 30px;
     padding-bottom: 30px;
+    line-height: 1.5;
 }
 
 .logo{
@@ -90,6 +96,18 @@ nav ul{
     display: flex;
     flex-direction: column;
     list-style-type: none;
+    color: #334f33;
+}
+
+nav a, nav a:link, nav a:visited{
+    display: inline-block;
+    text-decoration: none;
+    color: #334f33;
+}
+
+nav a:hover, nav a:active{
+    color: #ffeed6;
+    background-color: #334f33;
 }
 
 .aboutme{
@@ -98,7 +116,37 @@ nav ul{
 
 .portfolio{
     background-color: #210203;
+    padding-bottom: 40px;
 }
+
+.portfolio img{
+    display: block;
+    padding: 40px 15%;
+    width: 70%;
+    align-self: center;
+}
+
+.portfolio a{
+    padding-left: 10%;
+    font-weight: bold;
+}
+
+.portfolio h1{
+    padding-left: 10%;
+    padding-top: 40px;
+}
+
+.portfolio a, .portfolio a:link, .portfolio a:visited{
+    display: inline-block;
+    text-decoration: none;
+    color: #ffeed6;
+}
+
+.portfolio a:hover, .portfolio a:active{
+    color: #210203;
+    background-color: #ffeed6;
+}
+
 
 .notice{
     background-color: #334f33;
