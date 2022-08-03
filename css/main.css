@@ -58,10 +58,12 @@ h1{
     font-weight: bold;
 }
 
+h4{
+    font-weight: bold;
+    color: #334f33;
+}
 
 /* index page */
-
-
 .header{
     display: grid;
     height: 150px;
@@ -98,8 +100,38 @@ nav ul{
     background-color: #210203;
 }
 
-
-
 .notice{
     background-color: #334f33;
+}
+
+footer{
+    text-align: center;
+    line-height: 1.8;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+footer p{
+    color: #334f33;
+    font-size: 14px;
+}
+
+.icons{
+    color: #334f33;
+}
+
+.icons .fa-brands:nth-child(2){
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.submitbtn{
+    background-color: #334f33;
+    color: #ffeed6;
+    border: none;
+    padding: 5px;
+}
+
+.copyright p{
+    font-size: 10px;
 }
