@@ -184,6 +184,8 @@ footer p{
 
 .icons{
     color: #334f33;
+    margin-top: 10px;
+    margin-bottom: 5px;
 }
 
 .icons .fa-brands:nth-child(2){
