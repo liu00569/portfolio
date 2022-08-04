@@ -274,6 +274,11 @@ label{
 
     }
 
+    .portfolio{
+        padding-top: 80px;
+        padding-bottom: 110px;
+    }
+
     .portfolios{
         display: flex;
         flex-direction: row;
