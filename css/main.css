@@ -231,7 +231,7 @@ footer input{
 
 .contact form{
     display: grid;
-    grid-column: 1fr;
+    grid-template-columns: 1fr;
     color: #ffeed6;
     padding: 0 10% 40px 10%;
 }
