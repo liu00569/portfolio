@@ -1,5 +1,5 @@
 # portfolio
-I do not have so many portfolios to show, so I focus more on the color and layout.  I'm satisfied with the color combination.
+I do not have so many portfolios to show, so I focus more on the color and layout.  I'm satisfied with the color combination. 
 
 I changed the original design a little, I think it's better now.
 
